@@ -1,0 +1,41 @@
+# Ignore arquivos e pastas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules
+node_modules/
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore arquivos de build e cache
+dist/
+build/
+.tmp/
+.vscode/
+.idea/
+
+# Ignore arquivos temporários e backups
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore arquivos do SASS/SCSS cache
+.sass-cache/
+
+# Ignore arquivos e pastas de testes locais
+coverage/
+.env
+.env.local
+.env.*.local
+
+# Ignore configurações de IDEs e editores
+*.code-workspace
+*.iml
+
+# Ignore imagens ou arquivos temporários de desenvolvimento
+src/css/imagens/*.psd
+src/css/imagens/*.ai
